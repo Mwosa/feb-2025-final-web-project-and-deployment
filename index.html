@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Blog - Home</title>
+    <meta
+      name="description"
+      content="A modern blog website featuring the latest articles and insights"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <a href="index.html" class="logo">Modern Blog</a>
+        <button
+          class="menu-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Welcome to Modern Blog</h1>
+          <p>
+            Discover insightful articles, tips, and stories from our community
+            of writers.
+          </p>
+          <a href="#featured-posts" class="btn btn-primary">Explore Posts</a>
+        </div>
+      </section>
+
+      <section class="image-slider">
+        <div class="slide">
+          <img
+            src="assets/images/blog-1.jpg"
+            alt="Featured blog post about technology"
+            class="post-image"
+          />
+          <div class="slide-content">
+            <h2>The Future of Technology</h2>
+            <p>Exploring upcoming trends in tech...</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/blog-2.jpg"
+            alt="Featured blog post about design"
+            class="post-image"
+          />
+          <div class="slide-content">
+            <h2>Design Principles</h2>
+            <p>Understanding modern design...</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/blog-3.jpg"
+            alt="Featured blog post about productivity"
+            class="post-image"
+          />
+          <div class="slide-content">
+            <h2>Productivity Tips</h2>
+            <p>Boost your daily productivity...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured-posts" class="container">
+        <h2 class="text-center mb-2">Featured Posts</h2>
+        <div class="posts-grid">
+          <article class="post-card">
+            <img
+              src="assets/images/post-1.jpg"
+              alt="Web Development"
+              class="post-image"
+            />
+            <div class="post-content">
+              <h3 class="post-title">Getting Started with Web Development</h3>
+              <p>
+                Learn the basics of web development and start building your
+                first website...
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img
+              src="assets/images/post-2.jpg"
+              alt="Digital Marketing"
+              class="post-image"
+            />
+            <div class="post-content">
+              <h3 class="post-title">Digital Marketing Essentials</h3>
+              <p>
+                Discover key strategies for successful digital marketing
+                campaigns...
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <img
+              src="assets/images/post-3.jpg"
+              alt="UI/UX Design"
+              class="post-image"
+            />
+            <div class="post-content">
+              <h3 class="post-title">UI/UX Design Principles</h3>
+              <p>
+                Master the fundamentals of creating user-friendly interfaces...
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p>&copy; 2024 Modern Blog. All rights reserved.</p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

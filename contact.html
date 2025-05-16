@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Modern Blog</title>
+    <meta name="description" content="Get in touch with the Modern Blog team" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <a href="index.html" class="logo">Modern Blog</a>
+        <button
+          class="menu-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Contact Us</h1>
+          <p>Have questions or suggestions? We'd love to hear from you!</p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="contact-grid mt-3">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>
+              Feel free to reach out to us using the contact form or through any
+              of the following channels:
+            </p>
+
+            <div class="contact-details mt-2">
+              <div class="contact-item">
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:info@modernblog.com">info@modernblog.com</a>
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <h3>Phone</h3>
+                <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+              </div>
+
+              <div class="contact-item">
+                <h3>Address</h3>
+                <p>
+                  123 Blog Street<br />
+                  Digital City, DC 12345<br />
+                  United States
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                  <a href="#" aria-label="Follow us on Twitter">Twitter</a>
+                  <a href="#" aria-label="Follow us on Facebook">Facebook</a>
+                  <a href="#" aria-label="Follow us on Instagram">Instagram</a>
+                  <a href="#" aria-label="Follow us on LinkedIn">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contact-form" class="mt-2">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-3">
+        <div class="faq-section">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-grid mt-2">
+            <div class="faq-item">
+              <h3>How can I contribute to Modern Blog?</h3>
+              <p>
+                We welcome guest posts from experienced writers. Please use the
+                contact form above to submit your proposal.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>What's your response time?</h3>
+              <p>
+                We typically respond to all inquiries within 24-48 business
+                hours.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Do you offer advertising opportunities?</h3>
+              <p>
+                Yes, we offer various advertising options. Contact our team for
+                more information.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>How can I report a technical issue?</h3>
+              <p>
+                Use the contact form and select "Technical Support" as the
+                subject for fastest response.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p>&copy; 2024 Modern Blog. All rights reserved.</p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
